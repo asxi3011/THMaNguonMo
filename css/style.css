@@ -92,3 +92,6 @@ ul.product_list li img {
     float: left;
     width: 30%;
 }
+.clear{
+	clear: both;
+}
