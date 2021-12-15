@@ -10,7 +10,9 @@
 				$tam = '';
 				$query = '';
 			}
-			if($tam=='donhang' && $query=='xemdonhang'){
+			if($tam=='quanlydonhang' && $query=='lietke'){
+				include("modules/quanlydonhang/lietke.php");
+			}elseif($tam=='donhang' && $query=='xemdonhang'){
 				include("modules/quanlydonhang/xemdonhang.php");
 			}
 			else{
