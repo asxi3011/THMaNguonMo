@@ -4,7 +4,13 @@
 	<?php
 
 			
-        include("modules/dashboard.php");
+		if($tam=='quanlydanhmucsanpham' && $query=='them'){
+			include("modules/quanlydanhmucsp/them.php");
+			include("modules/quanlydanhmucsp/lietke.php");
+		}
+		else{
+			include("modules/dashboard.php");
+		}
 				
 	?> 
 	
