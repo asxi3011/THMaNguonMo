@@ -4,7 +4,7 @@
 	<?php
 
 			
-				
+        include("modules/dashboard.php");
 				
 	?> 
 	
