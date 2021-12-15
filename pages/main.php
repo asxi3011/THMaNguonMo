@@ -9,10 +9,13 @@
                if($tam=='camon'){
                   include("main/camon.php");
                }
+               elseif($tam=='dangky'){
+                  include("main/dangky.php");
+               }
                else{
                   include("main/index.php");
                }
-
+               
                ?>
 			</div>
 </div>
