@@ -12,6 +12,9 @@
                elseif($tam=='dangky'){
                   include("main/dangky.php");
                }
+               elseif($tam=='dangnhap'){
+                  include("main/dangnhap.php");
+               }
                else{
                   include("main/trangchu.php"); 
                }

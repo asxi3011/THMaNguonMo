@@ -64,3 +64,6 @@ ul.list_sidebar li {
     float: left;
     width: 30%;
 }
+.clear{
+	clear: both;
+}
