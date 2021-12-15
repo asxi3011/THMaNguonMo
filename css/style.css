@@ -13,3 +13,18 @@ body{
 	width: 90%;
 	margin:0 auto;
 }
+.header{
+	background-image: url("../images/banner.jpg");
+	background-repeat: no-repeat;
+	background-size: 100% 180px;
+	border:1px solid #ff80ff;
+	height: 180px;
+	width: 100%;
+	
+}
+.footer{
+	border:1px solid #ff1a8c;
+	height: 150px;
+	width: 100%;
+	background: #00cc99;
+}
