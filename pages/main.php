@@ -13,7 +13,7 @@
                   include("main/dangky.php");
                }
                else{
-                  include("main/index.php");
+                  include("main/trangchu.php"); 
                }
                
                ?>
