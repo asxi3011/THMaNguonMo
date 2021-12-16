@@ -22,7 +22,7 @@
 	  <?php 
 				while($row_danhmuc = mysqli_fetch_array($query_danhmuc)){
 				?>
-				<li><a href="index.php?quanly=danhmucsanpham&id=<?php echo $row_danhmuc['id_danhmuc'] ?>"><?php echo $row_danhmuc['tendanhmuc'] ?></a></li>
+				<li class="nav-item" ><a class="nav-link" href="index.php?quanly=danhmucsanpham&id=<?php echo $row_danhmuc['id_danhmuc'] ?>"><?php echo $row_danhmuc['tendanhmuc'] ?></a></li>
 				<?php
 				} 
 				?>
