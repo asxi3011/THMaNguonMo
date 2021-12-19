@@ -7,8 +7,8 @@ if(isset($_POST['dangnhap'])){
     $sql="select *from tbl_admin where username='".$taikhoan."' and password='".$matkhau."' limit 1 ";
     $row=mysqli_query($mysqli,$sql);
     $count = mysqli_num_rows($row);
-    if($count>=0){
-        $_SESSION['dangnhap']=$matkhau;
+    if($count>0){
+        $_SESSION['dangnhap']=$taikhoan;
         header("location:index.php");
     }else{
         echo '<script>alert("Tài khoản hoặc Mật khẩu không đúng,vui lòng nhập lại.");</script>';
